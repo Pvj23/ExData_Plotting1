@@ -25,6 +25,6 @@ plot(power$Global_active_power ~ power$Date, type = "l",
 
 ##Creating png file
 
-png("plot2.png", width=480, height=480)
+dev.copy(png, file = "plot2.png", width=480, height=480)
 
 dev.off()

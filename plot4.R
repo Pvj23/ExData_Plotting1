@@ -42,6 +42,7 @@ with(power, {
 
 ##Creating png file
 
-png("plot4.png", width=480, height=480)
+dev.copy(png, file = "plot4.png", width=480, height=480)
 
 dev.off()
+
